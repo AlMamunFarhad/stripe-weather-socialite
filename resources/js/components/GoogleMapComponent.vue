@@ -13,7 +13,7 @@ const mapContainer = ref(null)
 onMounted(() => {
   // Replace YOUR_API_KEY with your real key
   const script = document.createElement('script')
-  script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ9-KNpIlHmAMihgaWBD0iv7hvYYtF93Y&callback=initMap`
+  script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyC-6ShUHJgZg1PY-j8O5mJozvGrVIwVKfY&callback=initMap`
   script.async = true
   window.initMap = () => {
     const map = new google.maps.Map(mapContainer.value, {
